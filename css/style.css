@@ -1,1 +1,82 @@
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 20px;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.row{
+    justify-content: center;
+    width: 100%;
+    margin: 20px;
+}
+
+@media (min-width:992px){
+    .beef,.chicken,.susi{
+        background-color: darkgrey;
+        border: 3px solid;
+        margin: 10px;
+        width: 30%;
+        float: left;
+
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .beef,.chicken{
+        background-color: darkgrey;
+        border: 3px solid;
+        margin: 10px;
+        width: 45%;
+        float: left;
+        
+
+    }
+    .susi{
+        background-color: darkgrey;
+        border: 3px solid;
+        margin: 10px;
+        width: 93%;
+        float: left;
+
+
+    }
+}
+
+@media (max-width:767px){
+    .beef,.chicken,.susi{
+        background-color: darkgrey;
+        border: 3px solid;
+        margin: 20px;
+        width: 80%;
+        float: left;
+
+    }
+}
+
+.h1,.h2,.h3{
+    border-left: 3px solid;
+    border-bottom: 3px solid;
+    width: 150px;
+    text-align: center;
+    float: right;
+}
+.text{
+    margin: 30px 20px 20px 20px;
+}
+.h1{
+    background-color: salmon;
+}
+.h2{
+    background-color: brown;
+
+}
+.h3{
+    background-color: darkorange;
+}
